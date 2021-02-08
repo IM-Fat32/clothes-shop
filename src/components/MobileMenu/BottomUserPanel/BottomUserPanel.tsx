@@ -25,10 +25,10 @@ const BottomUserPanel : React.FC = () => {
         <NavLink to="/cart" className="bottom-user-panel__item" id="main__item">
           <Icon icon={basketIcon} className="menu__icon"/>
         </NavLink>
-        <NavLink to="/cart" className="bottom-user-panel__item">
+        <NavLink to="/profile" className="bottom-user-panel__item">
           <Icon icon={userIcon} className="menu__icon"/>
         </NavLink>
-        <NavLink to="/cart" className="bottom-user-panel__item">
+        <NavLink to="/discounts" className="bottom-user-panel__item">
           <Icon icon={percentIcon} className="menu__icon"/>
         </NavLink>
       </ul>
