@@ -1,0 +1,43 @@
+$iconFill : #f1f1f1
+$bgcFill: #4E4E4E
+$mainIconBgc: #E76868
+
+*
+  padding: 0
+  margin: 0
+  box-sizing: border-box
+  
+.bottom-user-panel__wrapper
+  position: fixed
+  bottom: 0;
+  left: 0
+  width: 100%
+ 
+  .bottom-user-panel__container
+    min-height: 50px
+    height: 60px
+    font-size: 28px
+    border-radius: 30px 30px 0px 0px
+    background-color: $bgcFill
+    display: flex
+    justify-content: space-around
+    align-items: center
+
+    #main__item
+      position: relative
+      background-color: $mainIconBgc
+      border-radius: 50%
+      padding: 12px 10px
+      border: 2px solid $iconFill
+      top: -15px
+
+
+    .bottom-user-panel__item
+      position: relative
+      padding: 10px;
+      display: flex
+      justify-content: center
+      align-items: center      
+      .menu__icon
+        color: $iconFill
+
