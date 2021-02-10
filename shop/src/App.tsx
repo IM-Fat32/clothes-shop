@@ -3,7 +3,6 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  NavLink
 } from "react-router-dom";
 
 import MobileMenu from "./components/MobileMenu/MobileMenu";
@@ -17,7 +16,9 @@ function App() {
         <MobileMenu/>
         <Switch>
           <Route exact path="/">
-            HIIii
+            <div>
+              sadiasdi
+            </div>
           </Route>
         </Switch>
       </Router>

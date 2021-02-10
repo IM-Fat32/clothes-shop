@@ -29,7 +29,6 @@ const TopMenu : React.FC = () => {
             :
             <div className="icon" onClick={handleClickActivator} >
               <Icon icon={navbarIcon} />
-              assasdaasdasadsasd
             </div>
           }
         </div>
